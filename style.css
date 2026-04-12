@@ -1,0 +1,23 @@
+.botao {
+    text-decoration: none;
+    background-color: #00bfff;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+img{
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.botao:hover{
+    background-color: #009acd;
+    transform: scale(1.02);
+}
