@@ -1,3 +1,7 @@
+.cidades-titulo {
+    text-align: center;
+}
+
 .container{
     display: flex;
     align-items: center;
@@ -50,4 +54,31 @@
 
 .menu a:hover {
     color: #00bfff;
+}
+
+.cidades {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 30px;
+   flex-wrap: wrap;
+}
+
+.cidades a {
+    text-decoration: none;
+    background-color: #00bfff;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.cidades a:hover{
+     background-color: #009acd; 
+     transform: scale(1.05);
+     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+
 }
